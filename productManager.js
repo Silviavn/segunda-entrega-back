@@ -29,7 +29,7 @@ class ProductManager {
 
         const productExiste = product.findIndex(products => products.code === code)
         
-        if (productExiste != -1) return "El codigo ingresado ${code} ya existe"
+        if (productExiste != -1) return "El código ingresado ${code} ya existe"
 
         let newProduct = {
             title,
@@ -42,7 +42,7 @@ class ProductManager {
         }
 
         product.push(newProduct)
-        await fs.writeFile(this.path, JSON.stringify(product, null, 2), `utf-8`)
+        await fs.writeFile(this.path, JSON.stringify(product, null, 2), "utf-8")
         return "A logrado ingresar con exitó"
         
      }   
@@ -86,12 +86,12 @@ productos.getProducts()
 
 
 const respto = {
-    title: "",
-    description: "",
-    price: 1,
-    thumbnail: "",
-    code: "",
-    stock: 1
+    title: "Prueba4",
+    description: "Esta el la descripción de prueba numero cuatro",
+    price: 1200,
+    thumbnail: "prueba4.img4",
+    code: "444",
+    stock: 5
 }
 
  productos.addProducts(respto)
