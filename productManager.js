@@ -105,11 +105,11 @@ productos.getProductsById(5)
  productos.deleteProductsById(2)
 
 productos.updateProducts({
-    title: "",
-    description: "",
-    price: 20,
-    thumbnail: "",
-    code: "",
-    stock: 1,
+    title: "Prueba2",
+    description: "Esta el la prueba numero dos",
+    price: 23000,
+    thumbnail: "prueba2.img2",
+    code: "222",
+    stock: 5,
     id: 2    
 })

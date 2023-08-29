@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Prueba1",
+        "description": "Esta el la descripción de prueba numero uno",
+        "price": 3000,
+        "thumbnail": "prueba1.img1",
+        "code": "111",
+        "stock": 5,
+        "id": 1
+    },
+    {
+        "title": "Prueba2",
+        "description": "Esta el la descripción de prueba numero dos",
+        "price": 23000,
+        "thumbnail": "prueba2.img2",
+        "code": "222",
+        "stock": 5,
+        "id": 2
+    },
+    {
+        "title": "Prueba3",
+        "description": "Esta el la descripción de prueba numero tres",
+        "price": 5000,
+        "thumbnail": "prueba3.img3",
+        "code": "333",
+        "stock": 5,
+        "id": 3
+    },
+    {
+        "title": "Prueba3",
+        "description": "Esta el la descripción de prueba numero cuatro",
+        "price": 1200,
+        "thumbnail": "prueba4.img4",
+        "code": "444",
+        "stock": 5,
+        "id": 4
+    }
+]
